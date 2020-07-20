@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Closure</title>
+</head>
+<body>
+  <script>
+    function makePow(pow) {
+      return function (num) {
+        return Math.pow(num, pow)
+      }
+    }
+
+    let pow2 = makePow(2)
+    let pow3 = makePow(3)
+
+    console.log(pow2(4))
+    console.log(pow3(2))
+  </script>
+</body>
+</html>

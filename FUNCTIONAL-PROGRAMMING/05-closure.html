@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Closure</title>
+</head>
+<body>
+  <script>
+    function makeSalary (base) {
+      return function (performance) {
+        return base + performance
+      }
+    }
+
+    let makeSalary1 = makeSalary(12000)
+    let makeSalary2 = makeSalary(15000)
+
+    console.log(makeSalary1(2000))
+    console.log(makeSalary2(3000))
+  </script>
+</body>
+</html>
