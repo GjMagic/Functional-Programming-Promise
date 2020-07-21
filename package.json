@@ -1,0 +1,23 @@
+{
+  "name": "Part-1-JavaScript-deep-study",
+  "version": "1.0.0",
+  "description": "本阶段主要围绕 JavaScript 语言本身以及它的周边语言进行深度介绍，让你从深度和广度两方面更深入掌握 JavaScript 这门语言以及相关编程范式，夯实前端开发基础，从而应对大型复杂应用开发，同时也为后期的高阶内容打下坚实的基础",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GjMagic/Part-1-JavaScript-deep-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GjMagic/Part-1-JavaScript-deep-study/issues"
+  },
+  "homepage": "https://github.com/GjMagic/Part-1-JavaScript-deep-study#readme",
+  "dependencies": {
+    "lodash": "^4.17.19"
+  }
+}
