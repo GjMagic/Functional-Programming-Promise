@@ -19,6 +19,6 @@
   "homepage": "https://github.com/GjMagic/Part-1-JavaScript-deep-study#readme",
   "dependencies": {
     "folktale": "^2.3.2",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   }
 }
